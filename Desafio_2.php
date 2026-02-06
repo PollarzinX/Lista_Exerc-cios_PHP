@@ -9,5 +9,5 @@ if (is_int($valor1) && is_int($valor2)) {
     $soma = $valor1 + $valor2;
     echo "Resultado: " . $numeros[$valor1 - 1] . " mais " . $numeros[$valor2 - 1] . " é igual a " . $numeros[$soma - 1];
 } else {
-    echo "Valores inválidos.";
+    echo "Valores inválidos. ";
 }
